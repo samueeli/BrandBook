@@ -53,7 +53,7 @@ function App() {
 
   const [formValues, setFormValues] = useState(initialState);
   const dummyImg =
-    'https://storage.googleapis.com/proudcity/mebanenc/uploads/2021/03/placeholder-image.png';
+    'https://raw.githubusercontent.com/samueeli/BrandBook/main/src/assets/wireframe.jpg';
 
   const handleFormChange = (
     event: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>
