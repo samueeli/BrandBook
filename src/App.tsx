@@ -53,7 +53,7 @@ function App() {
 
   const [formValues, setFormValues] = useState(initialState);
   const dummyImg =
-    'https://raw.githubusercontent.com/samueeli/BrandBook/main/src/assets/placeholder.png';
+    'https://raw.githubusercontent.com/samueeli/BrandBook/main/src/assets/placeholder_img.png';
 
   const handleFormChange = (
     event: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>
