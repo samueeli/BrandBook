@@ -81,7 +81,7 @@ function App() {
       loadFonts(formValues.font);
     } else {
       loadFonts(
-        'https://fonts.gstatic.com/s/robotoslab/v25/BngbUXZYTXPIvIBgJJSb6s3BzlRRfKOFbvjojIWmb2RjV9Su1cai.woff2'
+        'https://raw.githubusercontent.com/samueeli/BrandBook/main/src/assets/RobotoSlab-VariableFont_wght.ttf'
       );
     }
   }, [formValues.font]);
