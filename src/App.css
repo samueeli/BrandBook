@@ -1,0 +1,13 @@
+:root {
+  --grey: #2e2e2e;
+  --white: #fcfcfc;
+  --black: #0e0e0e;
+  --ui-default: #c4967b;
+}
+
+section {
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+  overflow: hidden;
+}

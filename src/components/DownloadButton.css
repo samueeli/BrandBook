@@ -1,0 +1,35 @@
+.DownloadButton_container {
+  background-color: var(--ui-default);
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  width: fit-content;
+  padding: 0.5rem 0.5rem;
+  border-radius: 25px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.298);
+  transition: all 0.2s;
+  cursor: pointer;
+}
+
+/* .DownloadButton_container:hover {
+  background-color: #886653;
+} */
+
+.DownloadButton_text {
+  color: white;
+  margin-right: 0rem;
+  width: 0px;
+  overflow: hidden;
+  transition: all 0.2s;
+}
+
+.DownloadButton_container:hover .DownloadButton_text {
+  width: 5.8rem;
+  margin-right: 1rem;
+}
+
+.DownloadButton_container img {
+  filter: invert(1);
+  height: 2rem;
+  width: 2rem;
+}

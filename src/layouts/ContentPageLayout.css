@@ -1,0 +1,19 @@
+.ContentPageLayout_container {
+  padding: 4rem;
+  padding-bottom: 1rem;
+  display: flex;
+  flex-direction: column;
+  background-color: var(--white);
+}
+
+.ContentPageLayout_content {
+  flex: 1;
+  overflow: hidden;
+  margin-bottom: 2rem;
+}
+
+.ContentPageLayout_footer {
+  display: flex;
+  justify-content: flex-end;
+  padding: 0.5rem 0;
+}

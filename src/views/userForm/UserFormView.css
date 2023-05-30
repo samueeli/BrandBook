@@ -1,0 +1,91 @@
+.UserFormView_container {
+  position: fixed;
+  z-index: 100;
+  background-color: var(--white);
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  height: 100vh;
+  opacity: 0.98;
+  padding: 4rem;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  transition: all 0.3s;
+}
+
+.UserFormView_container.closed {
+  padding: 0;
+  width: 2rem;
+  height: 1.8rem;
+}
+
+.UserFormView_menuBtn {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: var(--white);
+  padding: 0.5rem;
+  position: fixed;
+  top: 0;
+  left: 0;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.UserFormView_menuBtn:hover {
+  background-color: rgb(221, 221, 221);
+}
+
+.UserFormView_menuBtn .menuline {
+  border-bottom: 4px solid #c4967b;
+  width: 1rem;
+}
+
+.UserFormView_menuBtn .menuline1 {
+  margin-bottom: 0.3rem;
+}
+
+.UserFormView_container hr {
+  margin: 2rem 0;
+}
+
+.UserFormView_header {
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+}
+
+.UserFormView_header p {
+  margin-top: 2rem;
+  max-width: 600px;
+}
+
+.UserFormView_header div {
+  padding: 0.5rem;
+  border-radius: 5%;
+  background-color: var(--grey);
+  color: var(--white);
+  line-height: 1;
+  cursor: pointer;
+  opacity: 1;
+  transition: all 0.2s;
+}
+
+.UserFormView_header div:hover {
+  opacity: 0.8;
+}
+
+.UserFormView_clearBtn {
+  background-color: #c4967b;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem 2rem;
+  width: max-content;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.UserFormView_clearBtn:hover {
+  background-color: #ac826a;
+}
